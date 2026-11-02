@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MainScene" extends="Scene">
+  <script type="text/brightscript" uri="pkg:/components/MainScene.brs" />
+  <children>
+    <Rectangle width="1280" height="720" color="0x10131CFF"/>
+    <Label id="title" text="THE HOODWATCHER 805" translation="[80,65]" width="1120" height="75" font="font:LargeBoldSystemFont" color="0xFFFFFFFF"/>
+    <Label text="INDEPENDENT NEWS  |  INVESTIGATIONS  |  TRAVEL" translation="[82,150]" width="1110" height="45" color="0xFF6973FF"/>
+    <Label text="Choose a category using the remote:" translation="[82,235]" width="1000" height="45" color="0xFFFFFFFF"/>
+    <LabelList id="categories" translation="[80,290]" itemSize="[1020,58]" numRows="4" width="1080" height="285" focusBitmapUri="" />
+    <Label id="status" text="Video programming is being prepared. No stream is live yet." translation="[82,625]" width="1100" height="55" color="0xCCCCCCFF"/>
+  </children>
+</component>
